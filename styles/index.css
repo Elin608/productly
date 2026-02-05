@@ -3,5 +3,70 @@ body{
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
+  background-color:white;
+  color:#2F281E ;
+  margin: 0;
+  
+}
+.nav-logo{
+  display: flex;
+  align-items: center;
+  gap:10px;
+}
+.nav{
+  display: flex;
+ align-items:center;
+  padding: 20px 50px;
+  flex-wrap: wrap;
+  gap: 320.73px;
+}
+.nav-meny{
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  list-style: none;
+}
+.nav-meny a{
+  text-decoration: none;
+  color: #2F281E;
+  transition: 0.4s;
+}
+.header-text{
+font-size: 28px;
+font-weight: bolder;
+font-weight: 350px;
+}
+.nav-buttons{
+  display: flex;
+  align-items: center;
+  gap:14px;
 
 }
+.nav-buttons{
+  display: flex;
+  align-items: center;
+  gap:14px ;
+  
+}
+.btn-signin{
+  text-decoration: none;
+  color: #173A56;
+  font-size:16px ;
+  font-weight:bold;
+  border: 1px solid #BCD0E5;
+  padding:11px 25px ;
+  border-radius: 10px;
+
+}
+.btn-signup{
+  text-decoration: none;
+  background-color:#FF9900 ;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 11px 25px;
+  color:white;
+  border-radius: 10px;
+
+  
+}
+
