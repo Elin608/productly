@@ -67,7 +67,49 @@ font-weight: 350px;
   padding: 11px 25px;
   color:white;
   border-radius: 10px;
+}
+
+.hero-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:3px;
+  width: 100%;
+  max-width: 1500px;
+  
+
+}
+.hero-text{
+  margin-top: 30px;
+ max-width: 550px;
+ 
+ 
+ padding-bottom:45px ;
+}
+
+.btn-getstarted{
+  text-decoration: none;
+  background-color:#FF9900 ;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 15px 41px;
+  color:white;
+  border-radius: 10px;
+  }
+  .hero-text p{
+    margin-bottom: 45px;
+  }
+  
+  
+.hero-image{
+  
+  width: 605px;
+  height: 496px;
+  max-width: 100%;
+
 
   
+  
+
 }
 
