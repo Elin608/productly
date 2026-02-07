@@ -1,3 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 
 body{
     
@@ -71,17 +78,20 @@ font-weight: 350px;
 
 .hero-content{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   gap:3px;
   width: 100%;
   max-width: 1500px;
+  padding-left: 145px;
+  margin-bottom: 110px;
   
 
 }
 .hero-text{
   margin-top: 30px;
  max-width: 550px;
+ 
  
  
  padding-bottom:45px ;
@@ -106,10 +116,88 @@ font-weight: 350px;
   width: 605px;
   height: 496px;
   max-width: 100%;
+  }
+.features{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  
+  }
 
-
+.features-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 40px;
+  gap:46px;
+  
+}
+.features h2{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 60px;
   
   
+}
+.features-card{
+  
+  width: 240px;
+  height: 178px;
+}
 
+.features-button{
+   
+  width: 100%;
+  margin-bottom: 90px;
+}
+
+.btn-signup{
+ 
+  text-decoration: none;
+  background-color:#FF9900 ;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 15px 14px;
+  color:white;
+  border-radius: 10px;
+ }
+
+   .info-section{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   gap: 119px;
+   
+ }
+
+.info-text p{
+  font-size:16px ;
+  line-height: 26px;
+  font-weight: 300px;
+  color: #544837;
+  padding-bottom: 30px;
+}
+.info-text h2{
+  color: #2F281E;
+  font-size: 36px;
+  padding-bottom: 22px;
+}
+.Effortless-title{
+  display: block;
+  padding-bottom: 2px;
+}
+  
+  
+  
+
+
+.red-shirt{
+  width: 520px;
+  height: 574px;
+  padding: 354px 54px;
+  
+  
 }
 
